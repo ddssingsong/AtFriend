@@ -1,4 +1,4 @@
-package com.dds.atfriend;
+package com.dds.atfriend.widget;
 
 
 import android.content.Context;

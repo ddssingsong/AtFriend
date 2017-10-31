@@ -8,9 +8,13 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="OnClick"
-        android:text="仿微信@功能" />
+        android:onClick="addSpan"
+        android:text="添加一个块" />
 
-
+    <com.dds.atfriend.widget.MsgEditText
+        android:id="@+id/et_user_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp" />
 </LinearLayout>
-

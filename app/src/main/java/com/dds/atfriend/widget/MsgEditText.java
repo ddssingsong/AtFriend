@@ -11,7 +11,7 @@ import android.text.style.MetricAffectingSpan;
 import android.util.AttributeSet;
 
 /**
- * 模仿微信的@功能
+ * 模仿微信的@功能 整块删除 可编辑
  * Created by dds on 2017/10/25.
  * QQ: 710715508
  */
@@ -45,7 +45,7 @@ public class MsgEditText extends AppCompatEditText {
         if (!TextUtils.isEmpty(maskText)) {
             //已经添加了@
             builder.append(maskText).append(showText).append(" ");
-        }else {
+        } else {
             builder.append(showText).append(" ");
         }
         getText().insert(getSelectionStart(), builder.toString());

@@ -16,4 +16,8 @@ public class MainActivity extends AppCompatActivity {
     public void OnClick(View view) {
         AtFriendActivity.openActivity(this);
     }
+
+    public void OnClick1(View view) {
+        AtContactActivity.openActivity(this);
+    }
 }

@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AtFriendActivity"></activity>
+        <activity android:name=".AtFriendActivity" />
+        <activity android:name=".AtContactActivity" />
     </application>
 
 </manifest>

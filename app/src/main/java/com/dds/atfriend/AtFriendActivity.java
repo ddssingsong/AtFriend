@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
+import android.text.InputFilter;
+import android.text.Spanned;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
@@ -13,6 +15,9 @@ import com.dds.atfriend.widget.MsgEditText;
 
 import java.util.Random;
 
+/**
+ * 仿微信@ 好友测试
+ */
 public class AtFriendActivity extends AppCompatActivity {
 
     private MsgEditText mEditText;
@@ -20,10 +25,18 @@ public class AtFriendActivity extends AppCompatActivity {
     private final static String MASK_STR = "@";
 
 
-    public static void openActivity(Activity activity){
-        Intent intent =new Intent(activity,AtFriendActivity.class);
+    public static void openActivity(Activity activity) {
+        Intent intent = new Intent(activity, AtFriendActivity.class);
         activity.startActivity(intent);
+    }
 
+    private class MyInputFilter implements InputFilter {
+        @Override
+        public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+            if (source.toString().equalsIgnoreCase("@") || source.toString().equalsIgnoreCase("＠")) {
+            }
+            return source;
+        }
     }
 
 

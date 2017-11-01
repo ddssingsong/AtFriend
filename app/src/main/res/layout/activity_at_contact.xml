@@ -1,21 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:orientation="vertical"
-    android:padding="16dp">
+    tools:context="com.dds.atfriend.AtContactActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="OnClick"
-        android:text="仿微信@功能" />
-    <Button
+        android:onClick="addSpan"
+        android:text="添加一个块" />
+
+    <com.dds.atfriend.widget.ContactEditText
+        android:id="@+id/et_user_contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="OnClick1"
-        android:text="邮件收件人@功能" />
+        android:layout_marginTop="20dp"
+        android:padding="10dp" />
 
 
 </LinearLayout>
-

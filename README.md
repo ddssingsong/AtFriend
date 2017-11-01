@@ -7,3 +7,8 @@
     
 
 ![仿微信@功能](https://github.com/ddssingsong/AtFriend/tree/master/gif/atfriend.gif ) 
+
+   仿邮箱收件人@
+   
+
+![效果图](https://github.com/ddssingsong/AtFriend/tree/master/gif/GIF.gif) 

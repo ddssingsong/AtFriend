@@ -21,7 +21,8 @@ import java.util.Random;
 public class AtFriendActivity extends AppCompatActivity {
 
     private MsgEditText mEditText;
-    String[] str = new String[]{"123456789", "123456789", "123456789", "123456789", "123456789", "123456789"};
+    //String[] str = new String[]{"123456789", "123456789", "123456789", "123456789", "123456789", "123456789"};
+    String[] str = new String[]{"dsdsd", "fdfdfd", "hghghgh", "gtrtrt", "rtrtrt", "sdsdsd"};
     private final static String MASK_STR = "@";
 
 

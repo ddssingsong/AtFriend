@@ -19,8 +19,6 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.dds.atfriend.R;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -164,7 +162,7 @@ public class ContactEditText extends AppCompatAutoCompleteTextView {
         view.setText(text);
         view.setEllipsize(TextUtils.TruncateAt.END);
         view.setSingleLine(true);
-        view.setBackgroundResource(R.drawable.shape_corner_rectangle);
+       // view.setBackgroundResource(R.drawable.shape_corner_rectangle);
         //view.setBackgroundResource(R.drawable.shape_corner_rectangle);
         view.setTextSize(getTextSize());
         //view.setTextColor(getCurrentTextColor());
